@@ -50,6 +50,17 @@ body {
     opacity: 0.5;
 }
 
+/*MEME FORM STYLES*/
+
+.form--container {
+    margin: 28px 37px;
+}
+
+.labels--container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /*FORM STYLES*/
 
 .form--container {
@@ -59,4 +70,31 @@ body {
 .labels--container {
     display: flex;
     justify-content: space-evenly;
+}
+
+#label--container1 {
+    width: 222px;
+    height: 55px;
+}
+
+.label--title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.input {
+    padding: 10.5px 9px;
+    width: 80%;
+    font-size: 0.75rem;
+}
+
+.submit--input {
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px 0;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    border-radius: 6px;
+    border: none;
 }
