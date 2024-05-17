@@ -4,16 +4,20 @@ export default function Meme() {
     return (
         <main>
             <form className="form">
-                <input 
-                    type="text"
-                    placeholder="Top text"
-                    className="form--input"
-                />
-                <input 
-                    type="text"
-                    placeholder="Bottom text"
-                    className="form--input"
-                />
+                <label className="input--labels">Top text
+                    <input 
+                        type="text"
+                        placeholder="Top text"
+                        className="form--input"
+                    />
+                </label>
+                <label className="input--labels">Bottom text
+                    <input 
+                        type="text"
+                        placeholder="Bottom text"
+                        className="form--input"
+                    />
+                </label>
                 <button 
                     className="form--button"
                 >
