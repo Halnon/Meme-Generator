@@ -1,6 +1,11 @@
 import React from "react"
 
 export default function Meme() {
+
+    function handleClick() {
+
+    }
+
     return (
         <main>
             <div className="form">
@@ -20,6 +25,7 @@ export default function Meme() {
                 </label>
                 <button 
                     className="form--button"
+                    onClick={handleClick}
                 >
                     Get a new meme image 🖼
                 </button>
