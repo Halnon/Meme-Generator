@@ -1,12 +1,13 @@
 import React from "react"
+import memesData from '../../memesData';
 
 export default function Meme() {
 
     function handleClick() {
-        // const items = memesData.data.memes
-        // const randomIndex = items[Math.floor(Math.random() * items.length)]
-        // const randomURL = randomIndex.url;
-        // console.log(randomURL)
+        const items = memesData.data.memes
+        const randomIndex = items[Math.floor(Math.random() * items.length)]
+        const randomURL = randomIndex.url;
+        console.log(randomURL)
     }
 
     return (
