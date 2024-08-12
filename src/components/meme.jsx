@@ -3,12 +3,15 @@ import React from "react"
 export default function Meme() {
 
     function handleClick() {
-
+        // const items = memesData.data.memes
+        // const randomIndex = items[Math.floor(Math.random() * items.length)]
+        // const randomURL = randomIndex.url;
+        // console.log(randomURL)
     }
 
     return (
         <main>
-            <div className="form">
+            <form className="form">
                 <label className="input--labels">Top text
                     <input 
                         type="text"
@@ -29,7 +32,7 @@ export default function Meme() {
                 >
                     Get a new meme image 🖼
                 </button>
-            </div>
+            </form>
         </main>
     )
 }
