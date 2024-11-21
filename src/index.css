@@ -10,7 +10,7 @@ body {
 }
 
 :root {
-    --color1: white;
+    --color1: rgb(255, 255, 255);
     --color2: linear-gradient(to right, #672280 0%, #A626D3 100%);
 }
 
@@ -58,7 +58,7 @@ main {
 
 .form {
     display: grid;
-    grid-template: 40px 40px / 1fr 1fr;
+    grid-template: 60px 60px / 1fr 1fr;
     gap: 17px;
 }
 
@@ -68,17 +68,19 @@ main {
     border: 1px solid #D5D4D8;
     text-indent: 5px;
     height: 2rem;
+    margin-top: 0.5rem;
 }
 
 .form--button {
     grid-column: 1 / -1;
     font-family: "Karla", sans-serif;
-    border-radius: 5px;
+    font-size: 1.5rem;
+    border-radius: 10px;
     background: var(--color2);
     color: var(--color1);
     border: none;
     cursor: pointer;
-    height: 4rem;
+    height: 4.5rem;
 }
 
 .input--labels {
